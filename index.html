@@ -2495,7 +2495,7 @@
       </div>
       <div class="video-frame">
         <video class="sample-video" autoplay muted playsinline preload="metadata">
-          <source src="images/sample.mp4" type="video/mp4">
+          <source src="images/sample2.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
         <button class="video-unmute" aria-pressed="false" title="Toggle sound"><i class="fas fa-volume-mute"></i><span class="sr-only">Toggle sound</span></button>
@@ -2642,7 +2642,7 @@
       const btn = section.querySelector('.video-unmute');
       if (!vid) return;
 
-      const clips = ['images/sample.mp4'];
+      const clips = ['images/sample2.mp4', 'images/sample.mp4'];
       let clipIndex = 0;
 
       vid.muted = true;
